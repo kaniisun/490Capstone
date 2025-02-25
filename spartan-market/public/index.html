@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Marketplace</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/all.css">
     <script src="js/scripts.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
+<!--header-->
 <body>
     <header>
         <a href="index.html" class="logo">Spartan Marketplace</div>
@@ -35,14 +37,18 @@
         </nav>
         </nav>
     </header>
+
+    <!--search-->
     <main>
         <section id="intro">
-            <h1>Welcome to Students Marketplace</h1>
+            <h1>Your Campus Marketplace</h1>
             <div class="search-bar">
-                <input type="text" placeholder="Search for items..." id="searchInput">
-                <button onclick="searchItems()">Search</button>
+                <input type="text" placeholder="Search..." id="searchInput">
+                <button onclick="searchItems()"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </section>
+
+        <!--categories-->
         <section id="categories">
             <h2>Browse Categories</h2>
             <div class="category-list">
@@ -72,6 +78,8 @@
                 </div>
             </div>
         </section>
+
+        <!--products-->
         <section id="featured-products">
             <h2>Featured Products</h2>
             <div class="product-list" id="productList">
@@ -121,6 +129,7 @@
         </section>
     </main>
 
+    <!--footer-->
     <div class="footer">
         <div class="about">
             <h3>About</h3>
