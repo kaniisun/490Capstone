@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Marketplace</title>
     <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="styles/all.css">
     <script src="js/scripts.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -35,14 +36,16 @@
         </nav>
         </nav>
     </header>
+
     <main>
         <section id="intro">
-            <h1>Welcome to Students Marketplace</h1>
+            <h1>Your Campus Marketplace</h1>
             <div class="search-bar">
-                <input type="text" placeholder="Search for items..." id="searchInput">
-                <button onclick="searchItems()">Search</button>
+                <input type="text" placeholder="Search..." id="searchInput">
+                <button onclick="searchItems()"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
         </section>
+
         <section id="categories">
             <h2>Browse Categories</h2>
             <div class="category-list">
@@ -73,13 +76,10 @@
             </div>
         </section>
 
-        <body>
-
-            <body>
                 <div class="content-container">
                     <div class="product">
                         <div class="prod-image">
-                            <img id="prod-image" src="/imgs/purse.jpg" alt="Product Image">
+                            <img id="prod-image" src="images/purse.jpg" alt="Product Image">
                         </div>
                         <div class="prod-info">
                             <h2 id="prod-name">Product Name</h2>
