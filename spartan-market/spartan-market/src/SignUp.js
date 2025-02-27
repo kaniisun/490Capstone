@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { supabase } from "./supabaseClient"; // Import Supabase client
 import "./SignUp.css";
 
+// SignUp.js
 function SignUp() {
   // State for form fields and feedback
   const [firstName, setFirstName] = useState("");

@@ -16,7 +16,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   width: 100%;
-  max-width: 400px; /* Restrict width for readability */
+  max-width: 401px; /* Restrict width for readability */
 }
 
 /* Heading style */

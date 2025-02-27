@@ -1,6 +1,6 @@
 import SignUp from "./SignUp";
 
-
+// App.js
 
 function App() {
   return (
@@ -9,4 +9,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App
