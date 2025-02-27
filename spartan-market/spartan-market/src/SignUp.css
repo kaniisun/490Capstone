@@ -1,0 +1,73 @@
+/* SignUp.css */
+
+/* Center the form on the page */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Light gray background for contrast */
+}
+
+/* Style the form container */
+.signup-form {
+  background-color: #ffffff; /* White background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 400px; /* Restrict width for readability */
+}
+
+/* Heading style */
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333333; /* Dark gray for professionalism */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Input focus effect */
+.signup-form input:focus {
+  border-color: #007bff; /* Blue highlight on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Subtle glow */
+}
+
+/* Button style */
+.signup-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff; /* Professional blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button hover effect */
+.signup-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message style */
+.error {
+  color: #dc3545; /* Red for visibility */
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Arial', sans-serif;
+}
